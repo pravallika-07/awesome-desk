@@ -1,0 +1,70 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+
+.image_banner img {
+    width: 98%;
+}
+
+.image_banner {
+    position: relative;
+    padding: 0;
+
+
+}
+
+.col-md-3 {
+    width: calc(25% - 20px);
+    border: 2px solid #fff;
+    margin-right: 20px;
+}
+
+.row:nth-child(2) {
+    position: relative;
+    left: 12px;
+    margin-top: 10px;
+}
+.first-text, .second-text, .third-text, .fourth-text{
+        position: absolute;
+        top: 30%;
+        left: 49%;
+        padding: 1px 10px;
+        border-radius: 50%;
+        background: #6f6f6f;
+        color: #fff;
+        font-size: 1.2rem;
+        /* opacity: 0.5; */
+        cursor: pointer;
+        border: 1px solid #fff;
+        transition: 0.5s;
+}
+.second-text {
+    top: 60%;
+    left: 30%;
+}
+.third-text {
+    top: 66%;
+    left: 70%;
+}
+.fourth-text {
+    top: 80%;
+    left: 47%;
+}
+.first-text:hover, .second-text:hover, .third-text:hover, .fourth-text:hover {
+    opacity: 1;
+    background-color: #fff;
+    color: black;
+}
+
+#first-card, #second-card,  #third-card, #fourth-card {
+    position: relative;
+    top: 40px;
+    transition: 1s;
+}
+#first-card.show , #second-card.show, #third-card.show, #fourth-card.show{
+    top: 10px;
+  }
+
+  
